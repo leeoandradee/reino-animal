@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@font-face {
+    font-family: baloo;
+    src: url(assets/fonts/Baloo_Tamma_2/BalooTamma2-Regular.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: baloo bold;
+    src: url(assets/fonts/Baloo_Tamma_2/BalooTamma2-Bold.ttf) format("opentype");
+}
+
+  p {
+    font-family: baloo;
+  }
+
+  h1, h2 {
+    font-family: baloo bold;
+  }
+
+  body {
+      margin: 0;
+      background-color: #ffffff;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,10 @@
+<div class="row d-flex flex-row justify-content-center">
+    <h2>Sobre nós</h2>
+</div>
+<div class="row d-sm-flex justify-content-around mt-4">
+    <div class="service col-sm-2" *ngFor="let service of serviceList">
+        <img width="50%" src="{{service.icon}}"/>
+        <p class="mt-3"><b>{{service.title}}</b></p>
+        <p>{{service.description}}</p>
+    </div>
+</div>
